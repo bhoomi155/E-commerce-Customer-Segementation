@@ -11,9 +11,7 @@ The system allows users to upload a dataset in **CSV format**, processes the dat
 
 ## 🏠 Homepage (index.html)
 
-<p align="center">
-  <img src="screenshots/index_page.png" width="800">
-</p>
+![Homepage](https://raw.githubusercontent.com/bhoomi155/E-commerce-Customer-Segementation/8817b44088b4f1d0ecc871eeb43131c6bd3b93d0/home%20page.png)
 
 ---
 
@@ -21,15 +19,11 @@ The system allows users to upload a dataset in **CSV format**, processes the dat
 
 ### Customer Segmentation Dashboard
 
-<p align="center">
-  <img src="screenshots/result_page_1.png" width="800">
-</p>
+![Cluster Result](https://raw.githubusercontent.com/bhoomi155/E-commerce-Customer-Segementation/8817b44088b4f1d0ecc871eeb43131c6bd3b93d0/customer%20segmentation%20and%20dataset.png)
 
 ### Cluster Analysis & Visualization
 
-<p align="center">
-  <img src="screenshots/result_page_2.png" width="800">
-</p>
+![Cluster Analysis and Visualization](https://raw.githubusercontent.com/bhoomi155/E-commerce-Customer-Segementation/8817b44088b4f1d0ecc871eeb43131c6bd3b93d0/cluster%20analysis%20and%20visualization.png)
 
 ---
 
