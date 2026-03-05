@@ -1,0 +1,143 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Segmentation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body class="bg-gradient-to-tr from-indigo-50 to-purple-100 min-h-screen font-sans text-gray-800">
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <header class="text-center mb-10">
+      <h1 class="text-5xl font-bold text-purple-800 drop-shadow animate-bounce">E-commerce Customer Segmentation Tool (KMeans Clustering)</h1>
+      <p class="mt-4 text-lg text-gray-700">Upload your customer data and discover behavioral clusters with ease.</p>
+    </header>
+
+    <section class="flex flex-col md:flex-row bg-white rounded-xl shadow-lg overflow-hidden mb-12">
+      <div class="md:w-1/2 bg-indigo-100 p-6 flex items-center justify-center">
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_rp3c3dsv.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+      </div>
+      <div class="md:w-1/2 p-8 space-y-4">
+        <h2 class="text-2xl font-bold text-indigo-700"> What This App Does</h2>
+        <p>This tool uses <strong>AI-based clustering</strong> to divide your customers into meaningful groups. It helps businesses to:</p>
+        <ul class="list-disc list-inside text-gray-700">
+          <li>Target the right audience with personalized offers</li>
+          <li>Understand customer spending behavior</li>
+          <li>Increase retention and conversion rates</li>
+        </ul>
+        <div class="mt-4">
+          <form action="/analyze" method="post" enctype="multipart/form-data" class="space-y-4">
+            <label class="block text-sm font-semibold">Upload CSV File:</label>
+            <input type="file" name="file" required class="block w-full bg-gray-100 p-2 border border-gray-300 rounded">
+            <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-4 py-2 rounded w-full transition-all duration-300">Start Clustering</button>
+          </form>
+        </div>
+      </div>
+    </section> 
+
+    <footer class="text-center text-gray-500 text-sm mt-8">Built for insightful business decisions 
+</footer>
+  </div>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Customer Segmentation</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+font-family:'Poppins',sans-serif;
+}
+</style>
+
+</head>
+
+<body class="bg-gradient-to-r from-sky-100 via-white to-pink-100 min-h-screen">
+
+<div class="max-w-6xl mx-auto px-6 py-10">
+
+<header class="text-center mb-12">
+
+<h1 class="text-4xl font-semibold text-gray-800 tracking-wide">
+Customer Segmentation System
+</h1>
+
+<p class="mt-2 text-gray-600">
+AI Powered Customer Behaviour Analysis
+</p>
+
+</header>
+
+<section class="grid md:grid-cols-2 bg-white/70 backdrop-blur-md border border-gray-200 rounded-2xl shadow-xl overflow-hidden">
+
+<div class="flex items-center justify-center p-8 bg-gradient-to-br from-cyan-100 to-indigo-200">
+
+<lottie-player
+src="https://assets9.lottiefiles.com/packages/lf20_49rdyysj.json"
+background="transparent"
+speed="1"
+style="width:280px;height:280px;"
+loop
+autoplay>
+</lottie-player>
+
+</div>
+
+<div class="p-10 space-y-5">
+
+<h2 class="text-xl font-semibold text-gray-800">
+Project Overview
+</h2>
+
+<p class="text-gray-600 text-sm">
+This application performs customer segmentation using the
+K-Means clustering algorithm to group customers based on
+their purchasing behavior.
+</p>
+
+<ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+<li>Identify similar customer groups</li>
+<li>Improve marketing strategies</li>
+<li>Understand buying patterns</li>
+</ul>
+
+<form action="/analyze" method="post" enctype="multipart/form-data" class="space-y-4 pt-4">
+
+<label class="text-sm font-medium text-gray-700">
+Upload Customer Dataset
+</label>
+
+<input
+type="file"
+name="file"
+required
+class="w-full border border-gray-300 p-2 rounded-lg bg-gray-50"
+/>
+
+<button
+type="submit"
+class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-2 rounded-lg font-medium transition duration-300 shadow-md">
+Analyze Customers
+</button>
+
+</form>
+
+</div>
+</section>
+
+<footer class="text-center text-gray-500 text-sm mt-10">
+Customer Analytics Dashboard
+</footer>
+
+</div>
+</body>
+</html>
